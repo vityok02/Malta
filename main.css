@@ -1,0 +1,57 @@
+main {
+    color: white;
+}
+
+.myContainer {
+    z-index: 1;
+    height: 100vh;
+    background: url(images/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.myContainer h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 48px;
+    text-align: center;
+    margin-inline: auto;
+    background: #5a99f9;
+    color: white;
+}
+.block {
+    text-shadow: 2px 3px 3px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: -108px;
+}
+
+.block .left {
+    float: left;
+    width: 50%;
+}
+
+.block .right {
+    float: left;
+    width: 50%;
+}
+
+.block img {
+    display: flex;
+    margin: auto;
+    margin-right: 50px;
+    object-fit: cover;
+    width: 70%;
+}
+
+.text {
+    width: 70%;
+}
+
+.block .text{
+    margin: auto;
+    margin-left: 50px;
+    font-size: 32px;
+}

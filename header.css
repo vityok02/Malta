@@ -1,18 +1,17 @@
 header {
-    background-image: url(images/bg.jpg);
+    background-image: url(images/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
 
 nav {
-    color: white;
+    height: 80px;
     font-style: italic;
     background: rgba(0, 0, 0, 0.7);
     font-size: 24px;
     width: 100%;
-    padding: 20px;
-
+    padding-inline: 30px;
 }
 
 nav ul {
@@ -31,9 +30,14 @@ nav li:last-child {
 }
 
 nav a {
-    color: #fff;
+    color: white;
+    opacity: 70%;
     text-decoration: none;
     vertical-align: middle;
+}
+
+nav a:hover {
+    color: purple;
 }
 
 nav .btn {
@@ -57,11 +61,14 @@ nav .left {
 }
 
 nav .left .logo {
-    height: 50px;
+    height: 60px;
     margin-right: 10px;
 }
 
+
 .header {
+    text-shadow: 0px 0px 20px white;
+    color: black;
     margin-top: -100px;
     width: 100%;
     text-align: center;
