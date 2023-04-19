@@ -2,7 +2,7 @@ main {
     color: white;
 }
 
-.myContainer {
+.content {
     z-index: 1;
     height: 100vh;
     background: url(images/background2.png);
@@ -10,7 +10,11 @@ main {
     background-size: cover;
 }
 
-.myContainer h2 {
+.content a {
+    text-decoration: none;
+}
+
+.content h2 {
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 48px;
@@ -28,25 +32,15 @@ main {
     margin-top: -108px;
 }
 
-.block .left {
-    float: left;
+.block .half {
     width: 50%;
 }
 
-.block .right {
-    float: left;
-    width: 50%;
-}
-
-.block img {
+.block .img {
     display: flex;
     margin: auto;
     margin-right: 50px;
     object-fit: cover;
-    width: 70%;
-}
-
-.text {
     width: 70%;
 }
 
