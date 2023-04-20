@@ -6,9 +6,12 @@ header {
 }
 
 nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 80px;
     font-style: italic;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.6);
     font-size: 24px;
     width: 100%;
     padding-inline: 30px;
@@ -30,37 +33,28 @@ nav li:last-child {
 }
 
 nav a {
-    color: white;
-    opacity: 70%;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    vertical-align: middle;
 }
 
 nav a:hover {
     color: purple;
 }
 
-nav .btn {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    color: white;
-    font-size: 24px;
-    border-radius: pill;
+nav .button {
+    padding-block: 3px;
+    border-radius: 50px;
+    padding-inline: 8px;
     border: 2px solid yellow;
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-nav .left {
-    display: flex;
-    align-items: center;
-}
-
-nav .left .logo {
+nav .logo {
     height: 60px;
     margin-right: 10px;
 }
