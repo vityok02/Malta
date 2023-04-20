@@ -84,3 +84,29 @@ main {
     width: 100%;
     display: block;
 }
+
+.prices {
+    background-image: url(images/Prices.png);
+    background-size: cover;
+    height: 100%;
+}
+
+.prices ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    justify-content: space-around
+}
+
+.prices .card-title {
+    color: black;
+    font-weight: bold;
+}
+
+.prices .card-text {
+    color: black;
+}
+
+.title h2{
+    margin: 0;
+}
