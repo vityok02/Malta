@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 main {
     color: white;
 }
@@ -23,6 +26,7 @@ main {
     background: #5a99f9;
     color: white;
 }
+
 .block {
     text-shadow: 2px 3px 3px black;
     display: flex;
@@ -37,7 +41,9 @@ main {
 }
 
 .block .img {
+    background-image: no-repeat center center;
     display: flex;
+    object-fit: cover;
     margin: auto;
     margin-right: 50px;
     object-fit: cover;
@@ -45,7 +51,36 @@ main {
 }
 
 .block .text{
+    width: 80%;
     margin: auto;
     margin-left: 50px;
     font-size: 32px;
+}
+
+.hotel {
+    background: url(images/.png);
+}
+
+.hotel ul {
+    display: flex;
+    justify-content: center;
+}
+
+.hotel a {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hotel ul li {
+    margin-inline: 5%;
+    width: 30%;
+    display: inline-block;
+}
+
+.hotel img {
+    border-radius: 10%;
+    width: 100%;
+    display: block;
 }
