@@ -69,9 +69,34 @@ nav .logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: inherit;
+    height: 100vh;
 }
 
 h1 {
     font-size: 72px;
+}
+
+.absolute {
+    z-index: 16;
+    position: absolute;
+    top: 0;
+}
+
+.d-block {
+    flex-wrap: nowrap;
+}
+
+header .title {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-left: auto;
+    z-index: 16;
+}
+
+.carousel-item {
+    height: 100vh;
+    object-fit: cover;
 }
