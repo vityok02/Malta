@@ -87,16 +87,19 @@ h1 {
 }
 
 header .title {
+    font-size: 92px;
+    color: black;
     display: flex;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-left: auto;
     z-index: 16;
-
-    transform: translate(-50%, 100px);
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 20px white;
+    /* transform: translate(-50%, 100px);
     opacity: 0;
-    transition: all 0.8s ease 0s;
+    transition: all 0.8s ease 0s; */
 }
 
 header .title ._active{
