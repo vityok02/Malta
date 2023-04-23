@@ -135,3 +135,71 @@ main {
 .title h2{
     margin: 0;
 }
+
+.contacts {
+    background: url(images/background5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contacts .half {
+    font-size: 48px;
+    display: flex;
+}
+
+.contacts ul {
+    list-style: none;
+}
+
+.contacts li {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.contacts img {
+    width: 80px;
+    height: max-content;
+}
+
+.contacts .map {
+    border-radius: 30px;
+}
+
+.contacts .map img {
+    width: 80px;
+}
+
+.contacts .right {
+    justify-content: left;
+}
+
+.contacts .left {
+    justify-content: right;
+}
+
+.faq .title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 48px;
+    text-align: center;
+    margin-inline: auto;
+    background: #5a99f9;
+    color: white;
+}
+
+.faq {
+    min-height: 100vh;
+    background: url(images/background6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.faq .accordion {
+    color: white;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.459);
+}
+
+.faq .accordion-item {
+    background: rgba(0, 0, 0, 0.459);
+}

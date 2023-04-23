@@ -1,7 +1,5 @@
 (function () {
-  $('.carousel').carousel({
-    interval: 2000
-  });
+
 
   function openNav() {
     $("#sidenav").width("250px");
@@ -41,4 +39,11 @@
     animOnScroll();
   }
 
+  
+const myCarouselElement = document.querySelector('#myCarousel')
+
+const carousel = new bootstrap.Carousel(myCarouselElement, {
+  interval: 2000,
+  touch: false
+})
 })();

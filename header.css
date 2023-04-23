@@ -91,21 +91,19 @@ header .title {
     color: black;
     display: flex;
     position: absolute;
+    z-index: 1;
     top: 50%;
     left: 50%;
     margin-left: auto;
-    z-index: 16;
-    transform: translate(-50%, -50%);
     text-shadow: 0px 0px 20px white;
-    /* transform: translate(-50%, 100px);
+    transform: translate(-50%, 200px);
     opacity: 0;
-    transition: all 0.8s ease 0s; */
+    transition: all 0.8s ease 0s;
 }
 
-header .title ._active{
+header .title._anim-items._active{
     transform: translate(-50%, -50%);
     opacity: 1;
-    z-index: 16;
 }
 
 .carousel-item img{
