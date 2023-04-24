@@ -198,7 +198,7 @@ main {
     border: 2px solid purple;
     border-radius: 20px;
     color: white;
-    margin: 50px;
+    margin: 50px 50px 0px 50px;
     border-width: 0;
 }
 
@@ -231,7 +231,6 @@ main {
     --bs-border-radius: 20px;
 }
 
-<<<<<<< HEAD
 footer {
     padding: 2rem;
     background: rgb(0, 0, 0);
@@ -243,11 +242,3 @@ footer {
     gap: 0.2rem;
   }
   
-=======
-.form {
-    min-height: 100vh;
-    background-image: url(images/form.jpg);
-    background-repeat: none;
-    background-size: cover;
-}
->>>>>>> e3da67b1bcd21f6fe2cc7a6d581007355d9dae87
