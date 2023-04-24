@@ -195,11 +195,32 @@ main {
 }
 
 .faq .accordion {
+    border: 2px solid purple;
+    border-radius: 20px;
     color: white;
-    padding: 50px;
-    background: rgba(0, 0, 0, 0.459);
+    margin: 50px 50px 0px 50px;
+    border-width: 0;
 }
 
+
 .faq .accordion-item {
-    background: rgba(0, 0, 0, 0.459);
+    font-size: 24px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.faq .accordion-button {
+    border: none;
+    color: white;
+    font-size: 28px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.faq .accordion-body {
+    color: white;
+    font-size: 24;
+}
+
+.accordion :root {
+    --bs-border-width: 0px;
+    --bs-border-radius: 20px;
 }
