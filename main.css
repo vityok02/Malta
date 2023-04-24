@@ -220,7 +220,25 @@ main {
     font-size: 24;
 }
 
+.form {
+    color: white;
+    align-items: center;
+    background: url(images/background7.png);
+}
+
 .accordion :root {
     --bs-border-width: 0px;
     --bs-border-radius: 20px;
 }
+
+footer {
+    padding: 2rem;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+  }
+  

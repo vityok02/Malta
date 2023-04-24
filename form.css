@@ -1,0 +1,28 @@
+form {
+  border-radius: 20px;
+  padding: 30px 80px;
+  background: rgba(0, 102, 255, 0.8);
+}
+
+.form-label {
+  color: #c5c5c5;
+  font-size: 24px;
+}
+
+.form-control {
+  width: 350px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.form .btn {
+  margin-top: 40px;
+  margin-inline: auto;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form .btn-primary {
+  background: #002d80;
+}

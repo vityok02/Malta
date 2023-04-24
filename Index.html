@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="sidenav.css">
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="scroll.css">
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
     <header id="1">
@@ -96,14 +97,12 @@
             <div class="block">
                 <ul>
                     <li>
-                            <a href="https://www.hilton.com/en/hotels/mlahitw-hilton-malta/"><img src="images/hilton.jpg" alt="Hilton"></a>
-                            <a href="https://www.hilton.com/en/hotels/mlahitw-hilton-malta/">Hilton Malta</a>
-                        </a>
+                        <a href="https://www.hilton.com/en/hotels/mlahitw-hilton-malta/"><img src="images/hilton.jpg" alt="Hilton"></a>
+                        <a href="https://www.hilton.com/en/hotels/mlahitw-hilton-malta/">Hilton Malta</a>
                     </li>
                     <li>
-                            <a href="https://www.marriott.com/en-us/hotels/mlamc-malta-marriott-hotel-and-spa/overview/"><img src="images/marriot.webp.jpg" alt="Marriott"></a>
-                            <a href="https://www.marriott.com/en-us/hotels/mlamc-malta-marriott-hotel-and-spa/overview/">Malta Marriott Hotel & Spa</a>
-                        </a>
+                        <a href="https://www.marriott.com/en-us/hotels/mlamc-malta-marriott-hotel-and-spa/overview/"><img src="images/marriot.webp.jpg" alt="Marriott"></a>
+                        <a href="https://www.marriott.com/en-us/hotels/mlamc-malta-marriott-hotel-and-spa/overview/">Malta Marriott Hotel & Spa</a>
                     </li>
                 </ul>
             </div>
@@ -176,7 +175,10 @@
         </div>
         <div id="6" class="faq">
             <div>
-                <h2 class="title">FAQ</h2>
+              <h2 class="title">FAQ</h2>
+            </div>
+            <div>
+            
                 <div class="accordion accordion-block" id="accordionPanelsStayOpenExample">
                     <div class="accordion-item">
                       <h2 class="accordion-header">
@@ -295,11 +297,41 @@
                             Мальта має середземноморський клімат з теплими літами та м'якими зимами. Влітку (травень-вересень), температура може сягати до 30-35°C, тому рекомендується легкий одяг, захист від сонця (головній убір, сонцезахисний крем тощо) та вживання води. Взимку (грудень-лютий), температура зазвичай не опускається нижче 10°C, але можуть бути прохолодніші дні, тому рекомендується легкий теплий одяг та дощовик в разі дощу.                        </div>
                       </div>
                   </div>
-            </div>
+              </div>
+          </div>
         </div>
+        <div class="content form">
+          <div>
+            <h2>Форма</h2>
+          </div>
+          <div class="block">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label form-label-lg">Прізвище та ім'я</label>
+                <input type="text" class="form-control form-control-lg" id="name">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Електронна адреса</label>
+                <input type="email" class="form-control form-control-lg" id="email">
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Номер телефону</label>
+                <input type="email" class="form-control form-control-lg" id="phone">
+              </div>
+              <div class="mb-3">
+                <label for="tour" class="form-label">Бажаний тур</label>
+                <input type="text" class="form-control form-control-lg" id="tour">
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg d-flex">Відправити</button>
+            </form>
+          </div>
+        </div>
+        <footer>
+          ©2023 Туристичне агентство "Світанок". Всі права захищені.
+        </footer>
     </main>
     <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
