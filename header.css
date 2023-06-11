@@ -37,10 +37,7 @@ nav a {
     align-items: center;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-}
-
-nav a:hover {
-    color: purple;
+    transition: color 0.5s;
 }
 
 nav .button {
@@ -59,6 +56,9 @@ nav .logo {
     margin-right: 10px;
 }
 
+nav a:hover {
+    color: rgb(255, 153, 0);
+}
 
 .header {
     text-shadow: 0px 0px 20px white;
@@ -91,21 +91,19 @@ header .title {
     color: black;
     display: flex;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     top: 50%;
     left: 50%;
     margin-left: auto;
     text-shadow: 0px 0px 20px white;
     transform: translate(-50%, -50%);
-    transition: all 0.8s ease 0s;
 }
 
-header .title._anim-items._active{
+/* header .title._anim-items._active{
     transform: translate(-50%, -50%);
-    opacity: 1;
-}
+} */
 
-.carousel-item img{
+.carousel-item img {
     height: 100vh;
     object-fit: cover;
 }

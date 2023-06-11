@@ -1,4 +1,5 @@
 form {
+  margin-block: 100px;
   border-radius: 20px;
   padding: 30px 80px;
   background: rgba(0, 102, 255, 0.8);
@@ -25,4 +26,8 @@ form {
 
 .form .btn-primary {
   background: #002d80;
+}
+
+.form {
+  height: fit-content;
 }

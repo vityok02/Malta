@@ -1,4 +1,4 @@
-@media screen and (max-width: 1600px) {
+/* @media screen and (max-width: 1600px) {
    .block .img
    {
     width: 85%;
@@ -23,5 +23,187 @@
     .block .text {
         font-size: 28px;
         margin-left: 20px;
+    }
+} */
+
+@media screen and (max-height: 600px) {
+    .content {
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .block .text {
+        font-size: 28px;
+    }
+
+    .block .img {
+        width: 80%;
+    }
+
+    .hotel ul {
+        margin-inline: 0;
+    }
+
+    .hotel a {
+        font-size: 42px;
+    }
+
+    .contacts .half {
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .content h2 {
+        height: 90px;
+        font-size: 44px;
+    }
+
+    .block .text {
+        font-size: 24px;
+        margin-left: 20px;
+    }
+
+    .block .img {
+        margin-right: 20px;
+    }
+
+    .hotel a {
+        font-size: 36px;
+    }
+
+    .contacts .half {
+        margin-inline: 5px;
+    }
+
+    .contacts .half{
+        font-size: 28px;
+    }
+
+    .faq .accordion-button {
+        font-size: 24px;
+    }
+
+    .faq .accordion-item {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    header .title {
+        font-size: 72px;
+    }
+
+    .content {
+        height: fit-content;
+    }
+
+    .content h2 {
+        padding: 10px;
+        height: auto;
+        font-size: 38px;
+    }
+
+    .block .img {
+        width: 90%;
+        height: 350px;
+    }
+
+    .block .text {
+        font-size: 20px;
+        width: 400px;
+    }
+
+    .hotel ul li {
+        margin-inline: 3%;
+    }
+
+    .hotel a {
+        font-size: 32px;
+    }
+
+    .contacts .half {
+        font-size: 24px;
+    }
+
+    .contacts img {
+        width: 60px;
+    }
+
+    .contacts .block {
+        flex-direction: column-reverse;
+    }
+
+    .contacts .left {
+        width: fit-content;
+        margin-top: 0;
+        justify-content: right;
+    }
+
+    .faq .accordion-button {
+        font-size: 20px;
+    }
+
+    .faq .accordion-item {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .content h2 {
+        font-size: 32px;
+    }
+
+    .block .text {
+        font-size: 20px;
+    }
+
+    .form .form-label {
+        font-size: 20px;
+    }
+
+    .block form {
+        padding: 15px 40px;
+    }
+
+    form .form-control {
+        width: 300px;
+        height: 40px;
+    }
+
+    .form-control-lg {
+        min-height: 40px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .content .img {
+        display: none;
+    }
+
+    .block .text {
+        margin: auto;
+    }
+
+    .block .half:first-child {
+        display: none;
+    }
+
+    .block .half {
+        width: 100%;
+    }
+
+    .hotel ul {
+        padding: 0;
+    }
+
+    .hotel a {
+        font-size: 20px;
+    }
+
+    .contacts .half{
+        font-size: 18px;
     }
 }
